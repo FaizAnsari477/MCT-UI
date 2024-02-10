@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body {
+    background-image: url(./Resources/Image\ 5.jpeg);
+}
+.heading {
+    padding: 10px;
+}
+.paragraph {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+main {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.card {
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+}
+.content {
+    align-content: center;
+    background-color: #F8d98f;
+    padding: 10px;
+}
+.content h2 {
+    font-size: 24px;
+    padding: 10px;
+}
+.content p {
+    padding: 10px;
+    font-size: larger;
+    color: white;
+}
